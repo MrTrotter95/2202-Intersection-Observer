@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-family: Montserrat;
+}
+
+.hero-text__container {
+    min-width: 300px;
+    max-width: 800px;
+}
+
+.main-container {
+    margin-top: 1000px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.h1 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.p1 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+/***********CONTENT CONTROLL***********/
+.m-auto {
+    margin: auto;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.mt-200 {
+    margin-top: 200px;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+.mb-200 {
+    margin-bottom: 200px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-start {
+    justify-content: flex-start;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.flex-gap-large {
+    gap: 20px;
+}
+
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.small-container {
+    width: 300px;
+    margin: 0 20px 40px 20px;
+}
+
+.large-container {
+    width: 300px;
+    margin: 0 20px 40px 20px;
+}
+
+/***********FIRST CONTAINER***********/
+.small-img {
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.lemon-water {
+    background-image: url("./photos/lemonWater.jpg");
+}
+
+.avocado-salad {
+    background-image: url("./photos/avocadoSalad.jpg");
+}
+
+.berry-smoothie {
+    background-image: url("./photos/berrySmoothie.jpg");
+}
+
+
+
+/***********SECOND CONTAINER***********/
+.large-img {
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.clock-img {
+    width: 30px;
+    height: 30px;
+}
+
+.banana-pancakes-img {
+    background-image: url("./photos/bananaPancakes.jpg");
+}
+
+.corn-fritter-img {
+    background-image: url("./photos/cornFritters.jpg");
+}
+
+.chia-seed-img {
+    background-image: url("./photos/chiaSeedYogurt.jpg");
+}
+
+@media screen and (min-width: 1100px) {
+    .h1 {
+        font-size: 55px;
+    }
+
+    .h2 {
+        font-size: 35px;
+    }
+
+    .large-container {
+        width: 500px;
+        margin: 0 20px 40px 20px;
+    }
+
+    .large-img {
+        height: 500px;
+        width: 500px;
+    }
+
+    .flex-gap-large {
+        gap: 50px;
+    }
+}
